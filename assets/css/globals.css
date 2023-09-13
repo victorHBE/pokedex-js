@@ -4,12 +4,12 @@
 }
 
 body {
-    background-color: aliceblue;
+    background-color: rgb(121, 181, 233);
 }
 
 .container {
     padding: 1rem;
-    background-color: azure;
+    background-color: rgb(123, 206, 206);
     height: 100vh;
     width: 100vw;
 }

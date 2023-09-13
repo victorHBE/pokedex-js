@@ -109,7 +109,7 @@
 }
 
 .pokemon .detail img {
-    max-width: 100%;
+    max-width: 75%;
     height: 60px;
     align-self: flex-end;
 }
@@ -131,6 +131,12 @@
     border: none;
     border-radius: 1rem;
     font-family: 'Pokemon Solid', sans-serif;
+    transition: background-color 0.8s ease;
+}
+
+.pagination button:hover{
+    cursor: pointer;
+    background-color: #8043a3;
 }
 
 @media screen and (min-width: 380px) {
